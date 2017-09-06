@@ -1,0 +1,190 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body main{
+  font-family: 'Press Start 2P', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -10px;
+  max-width: 900px;
+}
+
+a{
+  color: red;
+}
+
+#container{
+  min-width: 920px;
+  max-width: 920px;
+}
+
+h2{
+  position: relative;
+  text-align: center;
+  margin-top: 250px;
+  animation-duration: 1000ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  font-size: 18px;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.mainHeader{
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  margin-bottom: -70px;
+  margin-top: 40px;
+  color: white;
+  border: 3px solid rgba(0,0,0,0.5);
+  border-radius: 20px;
+  background-color: red;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+#levelScore{
+  position: relative;
+}
+
+.level{
+  float: left;
+  font-size: 18px;
+}
+.score{
+  float: right;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.formQuestion{
+  font-size: 18px;
+  margin-bottom: 35px;
+
+}
+
+#feedBack{
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+  margin-top: 120px;
+}
+
+
+#nintendoQuiz{
+  position: relative;
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+#chooseAnswer{
+  padding-top: 70px;
+  padding-left: 10px;
+}
+
+label{
+ font-size: 18px;
+ display: block;
+ margin-bottom: 40px;
+}
+
+#retryQuiz{
+  margin-right: 50px;
+}
+
+#buttons{
+  position: relative;
+  margin-left:175px;
+  bottom: 170px;
+}
+
+#resultsButton{
+  font-size: 15px;
+  background: #777;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.opacity{
+opacity: 0.5;
+}
+
+hr{
+  border: 1px solid gray;
+  border-radius: 2px;
+  width: 600px;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*used button generator at css3buttongenerator.com */
+button {
+  background: #A93671;
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  -webkit-box-shadow: 4px 3px 4px #666666;
+  -moz-box-shadow: 4px 3px 4px #666666;
+  box-shadow: 4px 3px 4px #666666;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  transition: all .1s linear;
+  box-shadow: 0 5px 0 gray;
+}
+
+button:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0 2px 0 gray;
+  transform: translateY(3px);
+}
+
+
+.hidden{
+  display: none;
+}
+
+
+#fullFeedBack{
+  font-size: 15px;
+  position: relative;
+  width: 450px;
+  height: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+  overflow: auto;
+  
+}
+
+.feedBackList{ 
+  margin-left: 30px;
+}
+
+.feedBackYours{
+  margin-bottom: 75px;
+}
