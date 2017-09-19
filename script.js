@@ -42,7 +42,7 @@ const answerKeyArray = [
 	"King K. Rool",
 	"Wario",
 	"Wario and Waluigi",
-	"Super Famicon",
+	"Super Famicom",
 	"Sega"
 ];
 
@@ -134,7 +134,7 @@ const QUESTIONS = [
   { //question[8]
     question: `What is the name of the japanese version of the Super Nintendo System(SNES)?`,
     answers: [
-     	  "Super Famicon",
+     	  "Super Famicom",
         "Power Arigato",
         "Super Hai System",
         "Mega Drive"
