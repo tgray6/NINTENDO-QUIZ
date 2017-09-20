@@ -377,7 +377,7 @@ function radioCheck(){
 
 
 
-//PUSHES RADIO BUTTON TEXT VALUE TO yourAnswerArray()
+//PUSHES RADIO BUTTON TEXT VALUE TO yourAnswerArray[]
 function pushYourAnswer(){
 let youranswerTest = $("input[name='formAnswer']:checked").parent('label').text();
 yourAnswerArray.push(youranswerTest);
