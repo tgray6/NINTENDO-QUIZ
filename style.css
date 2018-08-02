@@ -16,6 +16,7 @@ a{
   color: red;
 }
 
+
 #container{
   min-width: 920px;
   max-width: 920px;
@@ -123,7 +124,7 @@ label{
 }
 
 .opacity{
-opacity: 0.5;
+  opacity: 0.5;
 }
 
 hr{
